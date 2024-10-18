@@ -24,8 +24,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4  
         with:
-          images: aryanbute/your-image-name
-
+          images: harjotmakkar/backend:latest
      
       - name: Build and push Docker image
         uses: docker/build-push-action@v5  
